@@ -1,0 +1,28 @@
+@import '../../assets/css/fonts.css';
+@import '../../assets/css/common.css';
+
+.menu {
+    display: flex;
+    background-color: #2B2B2B;
+    justify-content: space-between;
+    height: 8vh;
+    flex-direction: row-reverse;
+}
+
+.menu-items {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.menu-item {
+    color: #C6CDD3;
+    font-size: 2rem;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.logo {
+    display: flex;
+    align-items: stretch;
+}

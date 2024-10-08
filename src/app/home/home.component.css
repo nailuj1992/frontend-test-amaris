@@ -1,0 +1,76 @@
+@import '../../assets/css/fonts.css';
+@import '../../assets/css/common.css';
+
+.home-panel-1 {
+    height: 85vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5rem;
+    background-color: #172c50;
+}
+
+.home-panel-img-1 {
+    width: 30%;
+}
+
+.home-panel-text-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 11rem;
+    width: 40%;
+    padding: 0 4vh 0 4vh;
+}
+
+.title-1 {
+    color: #F88982;
+    font-size: 6vh;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.description-1 {
+    color: white;
+    font-size: 3vh;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.buttons-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.cta-button-1 {
+    background-color: #F88982;
+    padding: 0.6vh 1.5vh;
+    color: #172c50;
+    font-size: 2.5vh;
+    border: 2px solid #F88982;
+    text-decoration: none;
+    border-radius: 1vh;
+    &:hover {
+        background-color: #f56960;
+        border: 2px solid #f56960;
+        color: #052864;
+    }
+}
+
+.cta-button-2 {
+    padding: 0.6vh 1.5vh;
+    color: #F88982;
+    font-size: 2.5vh;
+    border: 2px solid #F88982;
+    text-decoration: none;
+    border-radius: 1vh;
+    &:hover {
+        color: #f56960;
+        border: 2px solid #f56960;
+        background-color: #052864;
+    }
+}
