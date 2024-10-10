@@ -53,7 +53,7 @@ export class EmployeesComponent {
   formatValue(price: number) {
     let USDollar = new Intl.NumberFormat('en-US', {
         style: 'currency',
-        currency: 'COP',
+        currency: 'USD',
     });
     return USDollar.format(price);
   }
